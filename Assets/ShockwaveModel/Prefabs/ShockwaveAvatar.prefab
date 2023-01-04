@@ -6623,7 +6623,6 @@ GameObject:
   - component: {fileID: 5341469568867803577}
   - component: {fileID: 2484400678020194774}
   - component: {fileID: 2484400678020194773}
-  - component: {fileID: 2484400678020194775}
   m_Layer: 0
   m_Name: ShockwaveAvatar
   m_TagString: Untagged
@@ -6773,6 +6772,16 @@ MonoBehaviour:
     mask: {fileID: 0}
     isDefault: 1
   - isEnabled: 0
+    type: 2
+    animatorController: {fileID: 0}
+    mask: {fileID: 0}
+    isDefault: 1
+  - isEnabled: 0
+    type: 3
+    animatorController: {fileID: 0}
+    mask: {fileID: 0}
+    isDefault: 1
+  - isEnabled: 0
     type: 4
     animatorController: {fileID: 0}
     mask: {fileID: 0}
@@ -6914,25 +6923,6 @@ MonoBehaviour:
     height: 0.0032681534
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
---- !u!95 &2484400678020194775
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4713974587436366595}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &4755099943318119652
 GameObject:
   m_ObjectHideFlags: 0
