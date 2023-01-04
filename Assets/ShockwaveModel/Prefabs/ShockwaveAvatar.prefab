@@ -4887,7 +4887,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c3bee1543023df844a24526d9c1a5173, type: 2}
+  - {fileID: 2100000, guid: 6e140b3bde64476428c587b8ecca1440, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6621,6 +6621,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5341469568867803577}
+  - component: {fileID: 5858353228716798437}
   - component: {fileID: 2484400678020194774}
   - component: {fileID: 2484400678020194773}
   m_Layer: 0
@@ -6647,6 +6648,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &5858353228716798437
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4713974587436366595}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 4bc775d0048a43b46bc19fa72a5cbe0c, type: 3}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &2484400678020194774
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6814,113 +6834,113 @@ MonoBehaviour:
   collider_head:
     isMirrored: 1
     state: 0
-    transform: {fileID: 0}
-    radius: 0.012399384
+    transform: {fileID: 481725816432003126}
+    radius: 0.0013552841
     height: 0
-    position: {x: -2.565139e-10, y: 0.0032275766, z: 6.9849193e-10}
+    position: {x: -0.00000047318858, y: 3.2014214e-10, z: 0.00015754798}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_torso:
     isMirrored: 1
     state: 0
-    transform: {fileID: 0}
-    radius: 0.018786944
-    height: 0.055001378
-    position: {x: 0.00021000007, y: 0.01232134, z: 0.0024156806}
-    rotation: {x: 0.0030755743, y: 0, z: -0.0038181331, w: 0.999988}
+    transform: {fileID: 8588588060329680063}
+    radius: 0.0020534606
+    height: 0.005489568
+    position: {x: -0.00000026804543, y: -0.00026837658, z: 0.0012586794}
+    rotation: {x: 0.7119666, y: 0, z: 0.00006956006, w: 0.7022134}
   collider_footR:
     isMirrored: 1
     state: 0
-    transform: {fileID: 0}
-    radius: 0.008479792
+    transform: {fileID: 2603266875169881619}
+    radius: 0.0008628148
     height: 0
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_footL:
     isMirrored: 1
     state: 0
-    transform: {fileID: 0}
-    radius: 0.008479792
+    transform: {fileID: 676786335100075702}
+    radius: 0.00086281495
     height: 0
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_handR:
     isMirrored: 1
     state: 0
-    transform: {fileID: 0}
-    radius: 0.0025697988
-    height: 0.010279195
-    position: {x: 0.008182307, y: 0.00029619935, z: 0.003050034}
-    rotation: {x: -0.6625715, y: 0, z: -0.24698003, w: 0.7071067}
+    transform: {fileID: 795445621321397730}
+    radius: 0.0002650081
+    height: 0.0010600324
+    position: {x: -0.000535882, y: -0.000068165304, z: 0.00072113366}
+    rotation: {x: 0.031414043, y: 0, z: 0.021189744, w: 0.9992818}
   collider_handL:
     isMirrored: 1
     state: 0
-    transform: {fileID: 0}
-    radius: 0.0025697025
-    height: 0.01027881
-    position: {x: -0.008181829, y: 0.00029618395, z: 0.0030503843}
-    rotation: {x: -0.6625576, y: 0, z: 0.24701723, w: 0.7071067}
+    transform: {fileID: 5814852674986132704}
+    radius: 0.00026506893
+    height: 0.0010602757
+    position: {x: 0.0005359711, y: -0.00006817243, z: 0.0007213253}
+    rotation: {x: 0.031410147, y: 0, z: -0.021187115, w: 0.999282}
   collider_fingerIndexL:
     isMirrored: 1
     state: 0
-    transform: {fileID: 0}
-    radius: 0.0009784075
-    height: 0.0048920373
+    transform: {fileID: 5955586750274332927}
+    radius: 0.000100536236
+    height: 0.0005026812
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_fingerMiddleL:
     isMirrored: 1
     state: 0
-    transform: {fileID: 0}
-    radius: 0.0011587702
-    height: 0.005793851
+    transform: {fileID: 7992401794276566674}
+    radius: 0.0001188659
+    height: 0.0005943295
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_fingerRingL:
     isMirrored: 1
     state: 0
-    transform: {fileID: 0}
-    radius: 0.001047287
-    height: 0.0052364348
+    transform: {fileID: 2311909470357095738}
+    radius: 0.000107236665
+    height: 0.00053618336
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_fingerLittleL:
     isMirrored: 1
     state: 0
-    transform: {fileID: 0}
-    radius: 0.00065366155
-    height: 0.0032683078
+    transform: {fileID: 6048839458864493030}
+    radius: 0.00006757219
+    height: 0.00033786095
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_fingerIndexR:
     isMirrored: 1
     state: 0
-    transform: {fileID: 0}
-    radius: 0.0009785215
-    height: 0.0048926077
+    transform: {fileID: 9126716929228647572}
+    radius: 0.000100536265
+    height: 0.0005026813
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_fingerMiddleR:
     isMirrored: 1
     state: 0
-    transform: {fileID: 0}
-    radius: 0.0011588786
-    height: 0.005794393
+    transform: {fileID: 8586706363891859775}
+    radius: 0.0001188732
+    height: 0.000594366
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_fingerRingR:
     isMirrored: 1
     state: 0
-    transform: {fileID: 0}
-    radius: 0.0010477554
-    height: 0.005238777
+    transform: {fileID: 5785575792850757231}
+    radius: 0.000107236614
+    height: 0.00053618307
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_fingerLittleR:
     isMirrored: 1
     state: 0
-    transform: {fileID: 0}
-    radius: 0.0006536307
-    height: 0.0032681534
+    transform: {fileID: 1455051187474917796}
+    radius: 0.000067571775
+    height: 0.00033785886
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
 --- !u!1 &4755099943318119652
@@ -7168,9 +7188,9 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 99a0a3051cb9cec4cb3aed781939a387, type: 2}
-  - {fileID: 2100000, guid: 7e93cd9f6a08c1e4094603c5a4a3707e, type: 2}
-  - {fileID: 2100000, guid: e1008df9aa2f79641bdd5b8a2e2909e1, type: 2}
+  - {fileID: 2100000, guid: a1c0dd3717785034a9d4e38f6350ddf5, type: 2}
+  - {fileID: 2100000, guid: 6e140b3bde64476428c587b8ecca1440, type: 2}
+  - {fileID: 2100000, guid: 3aa97e34a4dfd7c468ab631203a35db5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
