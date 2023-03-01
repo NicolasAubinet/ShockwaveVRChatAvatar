@@ -61,8 +61,8 @@ public class AddVRCSenders : Editor
     private static List<T> GetAllComponents<T>(GameObject gameObject)
     {
         List<T> allComponents = new List<T>();
-        T[] currentObjComponents = Selection.activeGameObject.GetComponents<T>();
-        T[] childrenComponents = Selection.activeGameObject.GetComponentsInChildren<T>();
+        T[] currentObjComponents = gameObject.GetComponents<T>();
+        T[] childrenComponents = gameObject.GetComponentsInChildren<T>();
 
         allComponents.AddRange(currentObjComponents);
         allComponents.AddRange(childrenComponents);
@@ -87,5 +87,26 @@ public class AddVRCSenders : Editor
         }
 
         Debug.Log("Collider to receivers conversion completed successfully");
+    }
+
+    [MenuItem("GameObject/Shockwave/Remove self-contact Colliders", false, -1)]
+    public static void RemoveSelfVRCContactReceivers()
+    {
+        List<VRCContactReceiver> receivers = GetAllComponents<VRCContactReceiver>(Selection.activeGameObject);
+        if (receivers.Count == 0)
+        {
+            Debug.LogWarning("No VRCContactReceiver components found on selected item");
+            return;
+        }
+
+        foreach (VRCContactReceiver receiver in receivers)
+        {
+            if (receiver.allowSelf)
+            {
+                DestroyImmediate(receiver);
+            }
+        }
+
+        Debug.Log("Self colliders removed successfully");
     }
 }
